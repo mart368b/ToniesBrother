@@ -14,7 +14,7 @@ use std::env::set_var;
 
 fn main() -> Result<(), Error> {
     
-    let token = "NzI0OTEwOTczNzcyNzU5Mjgx.XwjOSg.nS70cTRUe5uatp9Uf6DY32P4dC4";
+    let token = "BOT TOKEN";
     
     let mut client = Client::new(&token, Handler)?;
     
